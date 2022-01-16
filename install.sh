@@ -1,6 +1,4 @@
 #!/bin/sh
-SUDO_BIN=
-
 if [ -z "$SUDO" ]; then 
     SUDO_BIN='/usr/bin/sudo'
 else
